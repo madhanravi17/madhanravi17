@@ -1,0 +1,60 @@
+name: Generate CV PDF
+
+on:
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions UI
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to push the committed PDF back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Process Markdown and Generate PDF
+        run: |
+          # Create a tiny node script to handle the robust string replacements
+          cat << 'EOF' > process_resume.js
+          const fs = require('fs');
+          let content = fs.readFileSync('README.md', 'utf8');
+          
+          // Remove Adventure string
+          content = content.replace(/> \*Adventure in hands-on projects goes on :\)!?\*/g, '');
+          
+          // Remove Footer and horizontal line
+          const footerIndex = content.indexOf('<!-- Footer -->');
+          if (footerIndex > 0) {
+              const hrIndex = content.lastIndexOf('---', footerIndex);
+              if (hrIndex > 0 && (footerIndex - hrIndex) < 50) {
+                  content = content.substring(0, hrIndex);
+              } else {
+                  content = content.substring(0, footerIndex);
+              }
+          }
+          
+          fs.writeFileSync('MADHAN RASIPURAM RAVICHANDRAN CV.md', content, 'utf8');
+          EOF
+          
+          node process_resume.js
+          
+          # Run md-to-pdf to generate the PDF
+          npx -y md-to-pdf "MADHAN RASIPURAM RAVICHANDRAN CV.md"
+          
+          # Clean up temp files
+          rm process_resume.js "MADHAN RASIPURAM RAVICHANDRAN CV.md"
+
+      - name: Commit and Push PDF
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add "MADHAN RASIPURAM RAVICHANDRAN CV.pdf"
+          # Only commit if the PDF actually changed
+          git commit -m "docs: Auto-generate CV PDF" || echo "No changes to commit"
+          git push
