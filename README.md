@@ -76,28 +76,28 @@ A frequent contributor in MATLAB Answers and a **MVP** and **Masters badge** hol
 </p>
 
 #### Automotive & Embedded Systems
-`Bare Metal Programming` · `AURIX TC3x5 Drivers` · `AURIX TC3x5 Macro Assembly` · `STM32` · `Embedded C` · `C` · `MISRA C` · `Automotive SPICE (ASPICE)` · `EOL Testing`
+`Bare metal (direct register level programming)` · `Aurix TC375 Tricore` · `Aurix TC375 Tricore Assembly` · `miniMCDS On-Chip Memory Tracing` · `STM32` · `Embedded C` · `C` · `MISRA C` · `Automotive SPICE (ASPICE)` · `EOL Testing`
 
 #### Communication Protocols
-`Controller Area Network (CAN)` · `CAN FD (FDCAN)` · `UDS on CAN` · `OBD2 on CAN` · `On-Board Diagnostics (OBD)` · `SPI` · `I2C` · `UART/USART` · `USB CDC`
+`Controller Area Network (CAN)` · `Controller Area Network Flexible Data-Rate (FDCAN)` · `Unified Diagnostic Services over Controller Area Network (UDSonCAN)` · `On-Board Diagnostic2 over Controller Area Network (OBD2onCAN)` · `Unified Diagnostic Services (UDS)` · `On-board diagnostics2 (OBD2)` · `Serial Peripheral Interface (SPI)` · `Inter-Integrated Circuit (I2C)` · `Universal Asynchronous Receiver/Transmitter (UART)` · `USB CDC`
 
 #### MBD/MBSE & Simulation
-`MATLAB` · `Simulink` · `Stateflow` · `Simulink Coverage` · `MATLAB App Designer` · `MATLAB Embedded Coder` · `Model-Based Design (MBD)` · `Model-Based Systems Engineering (MBSE)` · `MathWorks Profiler`
+`MATLAB` · `Matlab` · `Simulink` · `Stateflow` · `Simulink Coverage` · `MATLAB App Designer` · `MATLAB Embedded Coder` · `Model-Based Design (MBD)` · `Model-Based Systems Engineering (MBSE)` · `MathWorks Profiler` · `PSIM`
 
 #### Testing & Measurement
 `MIL / SIL / HIL Testing` · `Picoscope 2208B MSO` · `MATLAB/GCC Memory Testing`
 
 #### CI/CD & Development Tools
-`Git` · `GitHub Actions` · `Bazel` · `Jira` · `SonarQube` · `YAML` · `JSON` · `Microsoft Visual Studio Code`
+`Git` · `GitHub Actions` · `Bazel` · `Jira` · `Sonarqube` · `YAML` · `JSON` · `Microsoft Visual Studio Code` · `vscode` · `Eclipse`
 
 #### Systems Engineering & Design Tools
-`Sparx Enterprise Architect` · `Rational DOORS` · `Printed Circuit Board (PCB) Design` · `SolidWorks`
+`Sparx Enterprise Architect` · `Rational DOORS` · `PTC Integrity` · `Printed Circuit Board (PCB) Design` · `KiCad` · `SolidWorks`
 
 #### Engineering Software & Analysis
-`ANSYS` · `LaTeX` · `Python` · `Adaptive Signal Processing` · `Image Processing` · `Microsoft Excel` · `Microsoft Word`
+`ANSYS` · `LaTeX` · `Python (Programmiersprache)` · `Python` · `JavaScript` · `HTML` · `Apple Shortcuts` · `Digitale Signalprozessoren` · `Adaptive Signal Processing` · `Image Processing` · `Microsoft Excel` · `Microsoft Word`
 
 #### Domain Knowledge
-`Battery Management Systems (BMS)` · `Fuel Cell Systems` · `Power Electronics` · `Electric Motor Controls` · `PDM`
+`Battery Management Systems (BMS)` · `Batteriemanagementsysteme` · `Fuel Cell Systems` · `Power Electronics` · `Electric Motor Controls` · `ISO 26262` · `PDM`
 
 <p align="right"><a href="#table-of-contents">⬆️ Back to Top</a></p>
 
@@ -202,7 +202,15 @@ A frequent contributor in MATLAB Answers and a **MVP** and **Masters badge** hol
 > *Adventure in hands-on projects goes on :)!*
 
 ### GitHub Actions CI Pipeline for Infineon AURIX TC375
-Built a GitHub Actions CI pipeline for Infineon AURIX TC375 firmware development using GCC and Memory Utilization Dashboard **from scratch**. The pipeline automatically validates builds on each commit and generates firmware artifacts including **ELF, HEX, MAP, LST**, and size reports. A key focus was achieving reproducible builds across local and cloud environments. Workflow handles artifacts retention and daily report generation of repository contents as markdown file (manual HTML report generation through MATLAB using GitHub API method / PowerShell automated HTML report in CI). Also created a MATLABDiffGenerator to produce diffs for larger inline diffs going beyond the default GitHub diff view. *Only for Personal Use.*
+- Built a GitHub Actions CI pipeline for Infineon AURIX TC375 firmware development using GCC and Memory Utilization Dashboard **from scratch**
+- Validates builds automatically on each commit and generates firmware artifacts including **ELF, HEX, MAP, LST**, and size reports
+- Achieved reproducible builds across local and cloud environments, handling artifact retention and daily Markdown report generation
+- Powershell script for fetching latest builds and flashing it in Infineon AURIX TC375 using **Aurix Flasher**
+- Automated HTML report generation through MATLAB using GitHub API methods and PowerShell scripts in CI
+- Created a `MATLABDiffGenerator` to produce extended inline diffs that go beyond the default GitHub diff view
+- Added a live view grapher custom JavaScript function in the existing Aurix TCF VSCode Debugger for better understanding of system behavior
+- Utilized **Apple Shortcuts** to trigger workflow dispatch for higher precision than cron schedulers, and to convert Markdown files to CSS-styled HTML for mobile readability
+- *Only for Personal Use.*
 
 ---
 
