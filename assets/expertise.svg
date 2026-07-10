@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="60" viewBox="0 0 800 60">
+  <defs>
+    <linearGradient id="gradLinkedIn" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#11998e"/>
+      <stop offset="100%" stop-color="#38ef7d"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="52" x2="190" y2="52" stroke="url(#gradLinkedIn)" stroke-width="3" stroke-linecap="round"/>
+  <text x="400" y="38" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="bold" fill="url(#gradLinkedIn)" text-anchor="middle">Skills &amp; Expertise</text>
+  <line x1="610" y1="52" x2="800" y2="52" stroke="url(#gradLinkedIn)" stroke-width="3" stroke-linecap="round"/>
+</svg>

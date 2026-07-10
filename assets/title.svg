@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="90" viewBox="0 0 800 90">
+  <defs>
+    <linearGradient id="gradName" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#667eea"/>
+      <stop offset="50%" stop-color="#764ba2"/>
+      <stop offset="100%" stop-color="#f093fb"/>
+    </linearGradient>
+    <linearGradient id="gradTitle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a8edea"/>
+      <stop offset="100%" stop-color="#fed6e3"/>
+    </linearGradient>
+  </defs>
+  <text x="400" y="40" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="34" font-weight="bold" fill="url(#gradName)" text-anchor="middle" letter-spacing="1">Madhan Rasipuram Ravichandran</text>
+  <text x="400" y="72" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="18" fill="url(#gradTitle)" text-anchor="middle" letter-spacing="3">MODEL-BASED DEVELOPMENT ENGINEER</text>
+</svg>
