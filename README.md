@@ -245,7 +245,8 @@ Analyzed AURIX Tricore TC3xx **GCC Compiler vs Tasking Assembly** with same and 
 <img src="assets/community.svg">
 </p>
 
-- **MATLAB Answers** – Frequent contributor, **MVP** and **Masters badge** holder
+- **[MATLAB Answers - Profile](https://www.mathworks.com/matlabcentral/profile/authors/12308260-madhan-ravi)** – Frequent contributor, **MVP** and **Masters badge** holder
+- A blog about me due to highest contributions in MATLAB Answers: **[Community Q&A – Madhan Ravi](https://blogs.mathworks.com/community/2019/02/28/community-qa-madhan-ravi/)**
 - Passionate advocate of MathWorks ecosystem and Model-Based Design methodology
 
 <p align="right"><a href="#table-of-contents">⬆️ Back to Top</a></p>
