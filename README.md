@@ -85,7 +85,7 @@ A frequent contributor in MATLAB Answers and a **MVP** and **Masters badge** hol
 `MATLAB` · `Matlab` · `Simulink` · `Stateflow` · `Simulink Coverage` · `MATLAB App Designer` · `MATLAB Embedded Coder` · `Model-Based Design (MBD)` · `Model-Based Systems Engineering (MBSE)` · `MathWorks Profiler` · `PSIM`
 
 #### Testing & Measurement
-`MIL / SIL / HIL Testing` · `Picoscope 2208B MSO` · `MATLAB/GCC Memory Testing`
+`MIL / SIL / HIL Testing` · `Picoscope 2208B MSO`
 
 #### CI/CD & Development Tools
 `Git` · `GitHub Actions` · `Bazel` · `Jira` · `Sonarqube` · `YAML` · `JSON` · `Microsoft Visual Studio Code` · `vscode` · `Eclipse`
