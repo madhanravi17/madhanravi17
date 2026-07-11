@@ -45,7 +45,7 @@ jobs:
           node process_resume.js
           
           # Run md-to-pdf to generate the PDF
-          npx -y md-to-pdf "MADHAN RASIPURAM RAVICHANDRAN CV.md"
+          npx -y md-to-pdf --launch-options '{"args":["--no-sandbox","--disable-setuid-sandbox"]}' "MADHAN RASIPURAM RAVICHANDRAN CV.md"
           
           # Clean up temp files
           rm process_resume.js "MADHAN RASIPURAM RAVICHANDRAN CV.md"
