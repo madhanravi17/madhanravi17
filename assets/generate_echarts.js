@@ -134,7 +134,7 @@ const nodes = Array.from(nodesMap.values());
 const chart = echarts.init(null, null, {
   renderer: 'svg',
   ssr: true,
-  width: 3400, // Giant canvas to support giant font
+  width: 4200, // MASSIVE canvas to support any font width
   height: 2800 
 });
 
@@ -152,7 +152,7 @@ chart.setOption({
       left: 20,
       top: 40,
       bottom: 40,
-      right: 1400, // Massive runway for giant font
+      right: 2200, // 2200px of pure runway so mobile fonts NEVER clip
       lineStyle: {
         color: 'gradient', 
         curveness: 0.5,
@@ -177,6 +177,9 @@ let svg = chart.renderToSVGString();
 
 // FIX 1: Strip out SVG clipping masks so text that renders outside the Sankey box is fully visible!
 svg = svg.replace(/clip-path="url\(#[^)]+\)"/g, '');
+
+// FIX 2: Force a pure black background on the SVG itself so it doesn't render as transparent/white in a browser tab!
+svg = svg.replace('<svg ', '<svg style="background-color: #000000;" ');
 
 if (!fs.existsSync('assets')) fs.mkdirSync('assets');
 fs.writeFileSync('assets/sankey.svg', svg, 'utf-8');
