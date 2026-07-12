@@ -34,7 +34,7 @@ jobs:
           content = content.replace(/> \*Adventure in hands-on projects goes on :\)!?\*/g, '');
           
           // Remove the SVG image link from the PDF (since we uncomment the text block instead)
-          content = content.replace('[![Skills & Expertise Matrix](assets/sankey.svg)](assets/sankey.svg)', '');
+          content = content.replace('![Skills & Expertise Matrix](assets/sankey.svg)', '');
 
           // Uncomment the hidden PDF skills text block
           content = content.replace(/<!-- PDF_SKILLS_START/g, '');
