@@ -18,7 +18,6 @@
 <a id="table-of-contents"></a>
 ## Table of Contents
 - [Professional Summary](#professional-summary)
-- [Technical Skills](#technical-skills)
 - [Skills & Expertise](#skills-and-expertise)
 - [Professional Experience](#professional-experience)
 - [Education](#education)
@@ -44,60 +43,38 @@ A frequent contributor in MATLAB Answers and a **MVP** and **Masters badge** hol
 
 ---
 
-<a id="technical-skills"></a>
-<!-- ═══════════ TECHNICAL SKILLS ═══════════ -->
-<p align="center">
-<img src="assets/technical-skills.svg">
-</p>
-
-| Category | Skills |
-|:---------|:-------|
-| **MBD / MBSE Tools** | MATLAB, Simulink, Stateflow, MATLAB Embedded Coder, MATLAB App Designer, Simulink Coverage |
-| **Methodologies** | Model-Based Design (MBD), Model-Based Systems Engineering (MBSE) |
-| **Programming** | Embedded C, MISRA C, C, Python, Powershell |
-| **Domain** | Battery Management Systems (BMS), Fuel Cell Systems, Power Electronics, Electric Motor Controls |
-| **Testing** | MIL / SIL / HIL Testing |
-| **CI/CD & Build** | Git, GitHub Actions, Bazel |
-| **Code Quality** | Jira, SonarQube |
-| **Data Formats** | JSON, YAML |
-| **Communication Protocols** | FD/CAN, CAN, SPI, I2C, USB CDC, USART/UART, UDS on CAN, OBD2 on CAN |
-| **Microcontrollers** | Infineon AURIX TC375, STM32G431(R/K)B, STM32H7(45/55)ZI-Q, STM32H735G-DK |
-| **Hardware & Instruments** | Picoscope 2208B MSO, PCB Design |
-| **Languages** | English C1 – Professional, German B2 – Professional |
-
-<p align="right"><a href="#table-of-contents">⬆️ Back to Top</a></p>
-
----
-
 <a id="skills-and-expertise"></a>
-<!-- ═══════════ SKILLS & EXPERTISE (LinkedIn) ═══════════ -->
+<!-- ═══════════ SKILLS & EXPERTISE ═══════════ -->
 <p align="center">
 <img src="assets/expertise.svg">
 </p>
 
 #### Automotive & Embedded Systems
-`Bare metal (direct register level programming)` · `Aurix TC375 Tricore` · `Aurix TC375 Tricore Assembly` · `miniMCDS On-Chip Memory Tracing` · `STM32` · `Embedded C` · `C` · `MISRA C` · `Automotive SPICE (ASPICE)` · `EOL Testing`
+`Bare metal (direct register level programming)` · `Infineon AURIX TC375 Tricore` · `Aurix TC375 Tricore Assembly` · `miniMCDS On-Chip Memory Tracing` · `STM32` · `STM32G431(R/K)B` · `STM32H7(45/55)ZI-Q` · `STM32H735G-DK` · `Embedded C` · `C` · `MISRA C` · `Automotive SPICE (ASPICE)` · `EOL Testing`
 
 #### Communication Protocols
-`Controller Area Network (CAN)` · `Controller Area Network Flexible Data-Rate (FDCAN)` · `Unified Diagnostic Services over Controller Area Network (UDSonCAN)` · `On-Board Diagnostic2 over Controller Area Network (OBD2onCAN)` · `Unified Diagnostic Services (UDS)` · `On-board diagnostics2 (OBD2)` · `Serial Peripheral Interface (SPI)` · `Inter-Integrated Circuit (I2C)` · `Universal Asynchronous Receiver/Transmitter (UART)` · `USB CDC`
+`Controller Area Network (CAN)` · `Controller Area Network Flexible Data-Rate (FDCAN)` · `Unified Diagnostic Services over Controller Area Network (UDSonCAN)` · `On-Board Diagnostic2 over Controller Area Network (OBD2onCAN)` · `Unified Diagnostic Services (UDS)` · `On-board diagnostics2 (OBD2)` · `Serial Peripheral Interface (SPI)` · `Inter-Integrated Circuit (I2C)` · `Universal Asynchronous Receiver/Transmitter (UART/USART)` · `USB CDC`
 
 #### MBD/MBSE & Simulation
-`MATLAB` · `Matlab` · `Simulink` · `Stateflow` · `Simulink Coverage` · `MATLAB App Designer` · `MATLAB Embedded Coder` · `Model-Based Design (MBD)` · `Model-Based Systems Engineering (MBSE)` · `MathWorks Profiler` · `PSIM`
+`MATLAB` · `Simulink` · `Stateflow` · `Simulink Coverage` · `MATLAB App Designer` · `MATLAB Embedded Coder` · `Model-Based Design (MBD)` · `Model-Based Systems Engineering (MBSE)` · `MathWorks Profiler` · `PSIM`
 
 #### Testing & Measurement
 `MIL / SIL / HIL Testing` · `Picoscope 2208B MSO`
 
 #### CI/CD & Development Tools
-`Git` · `GitHub Actions` · `Bazel` · `Jira` · `Sonarqube` · `YAML` · `JSON` · `Microsoft Visual Studio Code` · `vscode` · `Eclipse`
+`Git` · `GitHub Actions` · `Bazel` · `Jira` · `SonarQube` · `YAML` · `JSON` · `Microsoft Visual Studio Code` · `Eclipse`
 
 #### Systems Engineering & Design Tools
 `Sparx Enterprise Architect` · `Rational DOORS` · `PTC Integrity` · `Printed Circuit Board (PCB) Design` · `KiCad` · `SolidWorks`
 
 #### Engineering Software & Analysis
-`ANSYS` · `LaTeX` · `Python (Programmiersprache)` · `Python` · `JavaScript` · `HTML` · `Apple Shortcuts` · `Digitale Signalprozessoren` · `Adaptive Signal Processing` · `Image Processing` · `Microsoft Excel` · `Microsoft Word`
+`ANSYS` · `LaTeX` · `Python` · `PowerShell` · `JavaScript` · `HTML` · `Apple Shortcuts` · `Digitale Signalprozessoren` · `Adaptive Signal Processing` · `Image Processing` · `Microsoft Excel` · `Microsoft Word`
 
 #### Domain Knowledge
 `Battery Management Systems (BMS)` · `Batteriemanagementsysteme` · `Fuel Cell Systems` · `Power Electronics` · `Electric Motor Controls` · `ISO 26262` · `PDM`
+
+#### Languages
+`English C1 – Professional` · `German B2 – Professional`
 
 <p align="right"><a href="#table-of-contents">⬆️ Back to Top</a></p>
 
