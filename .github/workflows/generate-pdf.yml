@@ -18,6 +18,11 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Generate ECharts Sankey SVG
+        run: |
+          npm install echarts --no-save
+          node ./assets/generate_echarts.js
+
       - name: Process Markdown and Generate PDF
         run: |
           # Create a tiny node script to handle the robust string replacements
@@ -27,6 +32,13 @@ jobs:
           
           // Remove Adventure string
           content = content.replace(/> \*Adventure in hands-on projects goes on :\)!?\*/g, '');
+          
+          // Remove the SVG image link from the PDF (since we uncomment the text block instead)
+          content = content.replace('![Skills & Expertise Matrix](assets/sankey.svg)', '');
+
+          // Uncomment the hidden PDF skills text block
+          content = content.replace(/<!-- PDF_SKILLS_START/g, '');
+          content = content.replace(/PDF_SKILLS_END -->/g, '');
           
           // Remove Footer and horizontal line
           const footerIndex = content.indexOf('<!-- Footer -->');
@@ -54,7 +66,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add "MADHAN RASIPURAM RAVICHANDRAN CV.pdf"
+          git add "MADHAN RASIPURAM RAVICHANDRAN CV.pdf" assets/sankey.svg
           # Only commit if the PDF actually changed
-          git commit -m "docs: Auto-generate CV PDF" || echo "No changes to commit"
+          git commit -m "docs: Auto-generate CV PDF and Sankey SVG" || echo "No changes to commit"
           git push

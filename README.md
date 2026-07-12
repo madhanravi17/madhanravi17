@@ -49,6 +49,7 @@ A frequent contributor in MATLAB Answers and a **MVP** and **Masters badge** hol
 <img src="assets/expertise.svg">
 </p>
 
+<!-- PDF_SKILLS_START
 #### Automotive & Embedded Systems
 `Bare metal (direct register level programming)` · `Infineon AURIX TC375 Tricore` · `Aurix TC375 Tricore Assembly` · `miniMCDS On-Chip Memory Tracing` · `STM32` · `STM32G431(R/K)B` · `STM32H7(45/55)ZI-Q` · `STM32H735G-DK` · `Embedded C` · `C` · `MISRA C` · `Automotive SPICE (ASPICE)` · `EOL Testing`
 
@@ -75,6 +76,9 @@ A frequent contributor in MATLAB Answers and a **MVP** and **Masters badge** hol
 
 #### Languages
 `English C1 – Professional` · `German B2 – Professional`
+PDF_SKILLS_END -->
+
+![Skills & Expertise Matrix](assets/sankey.svg)
 
 <p align="right"><a href="#table-of-contents">⬆️ Back to Top</a></p>
 
