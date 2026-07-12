@@ -78,7 +78,7 @@ A frequent contributor in MATLAB Answers and a **MVP** and **Masters badge** hol
 `English C1 – Professional` · `German B2 – Professional`
 PDF_SKILLS_END -->
 
-![Skills & Expertise Matrix](assets/sankey.svg)
+[![Skills & Expertise Matrix](assets/sankey.svg)](assets/sankey.svg)
 
 <p align="right"><a href="#table-of-contents">⬆️ Back to Top</a></p>
 

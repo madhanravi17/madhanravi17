@@ -134,7 +134,7 @@ const nodes = Array.from(nodesMap.values());
 const chart = echarts.init(null, null, {
   renderer: 'svg',
   ssr: true,
-  width: 3200, // Giant canvas to support giant font
+  width: 3400, // Giant canvas to support giant font
   height: 2800 
 });
 
@@ -152,7 +152,7 @@ chart.setOption({
       left: 20,
       top: 40,
       bottom: 40,
-      right: 1200, // Massive runway for giant font
+      right: 1400, // Massive runway for giant font
       lineStyle: {
         color: 'gradient', 
         curveness: 0.5,
