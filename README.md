@@ -63,7 +63,7 @@ A frequent contributor in MATLAB Answers and a **MVP** and **Masters badge** hol
 `MIL / SIL / HIL Testing` · `Picoscope 2208B MSO`
 
 #### CI/CD & Development Tools
-`Git` · `GitHub Actions` · `Bazel` · `Jira` · `SonarQube` · `YAML` · `JSON` · `Microsoft Visual Studio Code` · `Eclipse`
+`Git` · `GitHub Actions` · `Bazel` · `Jira` · `SonarQube` · `Helix QAC` · `CodeSonar` · `YAML` · `JSON` · `Microsoft Visual Studio Code` · `Eclipse`
 
 #### Systems Engineering & Design Tools
 `Sparx Enterprise Architect` · `Rational DOORS` · `PTC Integrity` · `Printed Circuit Board (PCB) Design` · `KiCad` · `SolidWorks`
@@ -101,7 +101,7 @@ PDF_SKILLS_END -->
 - Optimized model logic and resolved defects identified during testing phases
 - Performed Model-in-the-Loop, Software-in-the-Loop, and Hardware-in-the-Loop validation
 - Ensured compliance with MISRA and AUTOSAR modeling and coding standards
-- Conducted static code analysis using SonarQube
+- Utilized SonarQube for code quality metrics and quality gates, Helix QAC for coding standards compliance, and CodeSonar for advanced static analysis to detect potential software defects.
 - Analyzed HIL-level defects down to low-level artifacts (.c, .a2l, .slx)
 - Reviewed peer pull requests and supported continuous integration workflows
 
