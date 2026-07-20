@@ -63,7 +63,7 @@ A frequent contributor in MATLAB Answers and a **MVP** and **Masters badge** hol
 `MIL / SIL / HIL Testing` · `Picoscope 2208B MSO`
 
 #### CI/CD & Development Tools
-`Git` · `GitHub Actions` · `Bazel` · `Jira` · `SonarQube` · `Helix QAC` · `CodeSonar` · `YAML` · `JSON` · `Microsoft Visual Studio Code` · `Eclipse`
+`Git` · `GitHub Actions` · `Bazel` · `Jira` · `SonarQube` · `Helix QAC` · `CodeSonar` · `YAML` · `Zuul` · `JSON` · `Microsoft Visual Studio Code` · `Eclipse`
 
 #### Systems Engineering & Design Tools
 `Sparx Enterprise Architect` · `Rational DOORS` · `PTC Integrity` · `Printed Circuit Board (PCB) Design` · `KiCad` · `SolidWorks`
