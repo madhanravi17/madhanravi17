@@ -94,10 +94,11 @@ PDF_SKILLS_END -->
 **Capgemini Engineering (for BMW Group AG)** – Munich, Germany
 *July 2023 – October 2025*
 
-- Developed BMS charging management algorithms in **MATLAB/Simulink**; implemented functional requirements in collaboration with system and functional engineers
+- Developed BMS charging management algorithms in **MATLAB/Simulink**; implemented logical complex functional requirements in collaboration with system and functional engineers
+- **MiL** and **SiL** test runs performed for each implementation cycle; incrementally expanded testcases per **SWC (Software Component)** to drive up **Simulink Coverage** percentages across all components
 - Worked extensively with a **Bazel**-based test framework — all SWCs packaged as functional Bazel packages for consistent **MiL**, **SiL**, and **Model Advisor** test execution
 - Automated test pipeline via **GitHub Actions**; generated **MiL/SiL coverage reports** and published artifacts to **JFrog**
-- Performed **MiL**, **SiL**, and **HiL** validation; traced and resolved HIL-level defects to low-level artifacts (`.c`, `.a2l`, `.slx`)
+- Performed **MiL** and **SiL** validation; assisted functional engineers in **HiL**-level defect tracing to low-level artifacts (`.c`, `.a2l`, `.slx`) when abnormalities were identified
 - Generated production Embedded C code using **MATLAB Embedded Coder** with Bazel integration
 - Enforced **MISRA** and **AUTOSAR** compliance; applied **SonarQube**, **Helix QAC**, and **CodeSonar** for static analysis and quality gates
 - Reviewed pull requests and supported **CI/CD** integration workflows
