@@ -94,16 +94,13 @@ PDF_SKILLS_END -->
 **Capgemini Engineering (for BMW Group AG)** – Munich, Germany
 *July 2023 – October 2025*
 
-- Developed charging management algorithms for Battery Management Systems using MATLAB/Simulink
-- Implemented functional requirements in collaboration with functional and system developers
-- Executed Model-in-the-Loop and Software-in-the-Loop test runs and generated automated test reports using GitHub Actions
-- Generated Embedded C code using MATLAB Embedded Coder with Bazel framework integration
-- Optimized model logic and resolved defects identified during testing phases
-- Performed Model-in-the-Loop, Software-in-the-Loop, and Hardware-in-the-Loop validation
-- Ensured compliance with MISRA and AUTOSAR modeling and coding standards
-- Utilized SonarQube for code quality metrics and quality gates, Helix QAC for coding standards compliance, and CodeSonar for advanced static analysis to detect potential software defects.
-- Analyzed HIL-level defects down to low-level artifacts (.c, .a2l, .slx)
-- Reviewed peer pull requests and supported continuous integration workflows
+- Developed BMS charging management algorithms in **MATLAB/Simulink**; implemented functional requirements in collaboration with system and functional engineers
+- Worked extensively with a **Bazel**-based test framework — all SWCs packaged as functional Bazel packages for consistent **MiL**, **SiL**, and **Model Advisor** test execution
+- Automated test pipeline via **GitHub Actions**; generated **MiL/SiL coverage reports** and published artifacts to **JFrog**
+- Performed **MiL**, **SiL**, and **HiL** validation; traced and resolved HIL-level defects to low-level artifacts (`.c`, `.a2l`, `.slx`)
+- Generated production Embedded C code using **MATLAB Embedded Coder** with Bazel integration
+- Enforced **MISRA** and **AUTOSAR** compliance; applied **SonarQube**, **Helix QAC**, and **CodeSonar** for static analysis and quality gates
+- Reviewed pull requests and supported **CI/CD** integration workflows
 
 ---
 
