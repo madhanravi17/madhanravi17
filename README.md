@@ -33,7 +33,7 @@
 <img src="assets/summary.svg">
 </p>
 
-Model-Based Development Engineer with over 3 years of experience in automotive software development, specializing in Battery Management Systems and Fuel Cell technologies. Strong expertise in MATLAB/Simulink, Stateflow, Embedded C, and Model-Based Design workflows. Proven experience working in OEM and Tier-1 environments with strict adherence to MISRA and AUTOSAR standards. Effective in requirements implementation, model optimization, testing, and production-quality code generation.
+Model-Based Development Engineer with over 3 years of experience in automotive software development, specializing in Battery Management Systems and Fuel Cell technologies. Strong expertise in MATLAB/Simulink, Stateflow, Embedded C, and Model-Based Design workflows. Proven experience working in OEM and Tier-1 environments with strict adherence to MAAB, MISRA and AUTOSAR standards. Effective in requirements implementation, model optimization, testing, and production-quality code generation.
 
 Highly skilled in MATLAB/Simulink to implement complex logics. Familiar with Bazel framework for testing C codes and YAML configuration for GitHub Action workflows. Hands-on experience with PC based oscilloscope.
 
@@ -100,7 +100,7 @@ PDF_SKILLS_END -->
 - Automated test pipeline via **GitHub Actions**; generated **MiL/SiL coverage reports** and published artifacts to **JFrog**
 - Performed **MiL** and **SiL** validation; assisted functional engineers in **HiL**-level defect tracing to low-level artifacts (`.c`, `.a2l`, `.slx`) when abnormalities were identified
 - Generated production Embedded C code using **MATLAB Embedded Coder** with Bazel integration
-- Enforced **MISRA** and **AUTOSAR** compliance; applied **SonarQube**, **Helix QAC**, and **CodeSonar** for static analysis and quality gates
+- Enforced **MAAB**, **MISRA** and **AUTOSAR** compliance; applied **SonarQube**, **Helix QAC**, and **CodeSonar** for static analysis and quality gates
 - Reviewed pull requests and supported **CI/CD** integration workflows
 
 ---
